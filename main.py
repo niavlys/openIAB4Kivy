@@ -8,22 +8,9 @@ from kivy.uix.boxlayout import BoxLayout
 
 from kivy import Logger
 
-__version__ = "0.0.4"
+__version__ = "0.0.5"
 
 import oiabilling
-
-"""
-from jnius import autoclass
-Environnement = autoclass('android.os.Environment')
-Context = autoclass('android.content.Context')
-Activity = autoclass('android.app.Activity')
-PythonActivity = autoclass('org.renpy.android.PythonActivity')
-activity = PythonActivity.mActivity
-
-OpenIabHelper = autoclass('org.onepf.oms.OpenIabHelper')
-Config = autoclass('org.onepf.trivialdrivegame.Config')
-
-"""
 
 class BuyButton(Button):
     sku = StringProperty(None)
