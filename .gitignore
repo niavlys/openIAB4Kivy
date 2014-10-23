@@ -1,0 +1,4 @@
+.DS_Store
+.buildozer/
+Config.java
+bin/
