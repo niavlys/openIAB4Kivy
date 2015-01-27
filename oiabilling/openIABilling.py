@@ -104,7 +104,7 @@ class OpenIABilling(EventDispatcher):
         Logger.info("Creating IAB helper."+50*'-')
         builder = Builder()
         builder.setVerifyMode(Options.VERIFY_EVERYTHING)
-        builder.addStoreKeys(Config.STORE_KEYS_MAP);
+        builder.addStoreKeys(Config.STORE_KEYS_MAP)
         self.helper = OpenIabHelper(mactivity, builder.build())
         self.helper.enableDebugLogging(DEBUG)
         Logger.info("Creating IAB done.")
